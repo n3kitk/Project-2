@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+   resize: none;
+}
+
+.head-list-cont{
+    display: flex;
+}
+
+.head-cont{
+    display: flex;
+    justify-content: center;
+}
+
+.navigation{
+   
+height: 30px;
+flex-shrink: 0;
+    color: #C7C7C7;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
