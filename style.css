@@ -204,27 +204,42 @@ border: 5px solid #8E32C6
 }
 
 .advantage-one{
-    
     margin-right: 145px;
     display: block;
     justify-content: center;
+    position: relative;
     
     
 }
 
 .advantage-one::after{
-    content: "";
-    
-    border-right: 1px solid #FFF;
-    margin-left: 40px;
-    
-
+    content:'';
+    display: block;
+    width: 1px;
+height: 346px;
+    position: absolute;
+    right: -50px;
+    top: 0;
+    background-color: #fff;
 }
 
 
 .advantage-two{
     margin-right: 145px;
     display: block;
+    position: relative;
+}
+
+.advantage-two::after{
+    content:'';
+    display: block;
+    width: 1px;
+height: 346px;
+    position: absolute;
+    right: -90px;
+    top: 0;
+    background-color: #fff;
+margin-left: 20px;
 }
 
 .advantage-three{
