@@ -9,6 +9,7 @@
    outline: none;
 }
 
+
 .head-list-cont{
     display: flex;
 }
@@ -613,3 +614,18 @@ line-height: normal;
 padding-left: 25px;
 }
 
+.email-wrapper{
+    position: relative;
+}
+
+.accept{
+    position: absolute;
+    right: 80px;
+    bottom: 15px;
+    color: #8D8D8D;
+font-family: Roboto;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
