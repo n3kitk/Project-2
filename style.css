@@ -295,8 +295,8 @@
 .revs {
   height: 570px;
   margin-top: 1px;
-  background: url(./images/цветы21.png) no-repeat,
-    url(./images/Group61.png) center / cover no-repeat;
+  background: url(./images/цветы21.png) no-repeat, 
+   url(./images/Group61.png) center / cover no-repeat;
   background-position: 0% 100%;
 }
 
