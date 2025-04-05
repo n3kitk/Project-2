@@ -447,7 +447,7 @@
   padding-top: 20px;
 }
 
-.email {
+.email_req_email {
   width: 690px;
   height: 60px;
   flex-shrink: 0;
@@ -464,6 +464,7 @@
   line-height: normal;
   margin-top: 33px;
   margin-left: 425px;
+  box-shadow: red;
 }
 
 .country {

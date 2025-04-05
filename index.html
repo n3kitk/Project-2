@@ -16,6 +16,7 @@
     />
     <title>Nike</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./media.css" />
   </head>
   <body>
     <header class="head-cont">
@@ -143,19 +144,21 @@
 
     <section class="ord">
       <h2 class="order">Order</h2>
-
-      <form class="text-cont" id="order-section">
+    
+      <form action="#" id = "form"  class="text-cont" id="order-section">
         <span class="email-wrapper">
           <p class="accept">Confirm</p>
-          <input type="text" class="email" placeholder="Write your email" /></span>
-        <input type="text" class="country" placeholder="Your Country" />
-        <input type="text" class="city" placeholder="Your City" />
-        <input type="text" class="adress" placeholder="Your Adress" />
-        <button class="send">
-          <a class="send-text" href="">Order my Nike</a>
-        </button>
+          <input type="email" name="email" class="email_req_email" placeholder="Write your email" required />
+        </span>
+    
+        <input type="text" name="country" class="country" placeholder="Your Country" required />
+        <input type="text" name="city" class="city" placeholder="Your City" required />
+        <input type="text" name="address" class="adress" placeholder="Your Address" required />
+    
+        <button type="submit" class="send">Order my Nike</button>
       </form>
     </section>
+    
 
     <footer class="footer">
       <div class="first-foot" id="footer-section">
@@ -201,5 +204,6 @@
         </ul>
       </div>
     </footer>
+    <script src="index.js"></script>
   </body>
 </html>
